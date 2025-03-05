@@ -1,0 +1,36 @@
+//WebSocket 
+
+WebSockets let your browser and the server keep a constant line of communication open. WebSockets are like keeping the phone line open so you can chat whenever you need to
+
+//WebSocket Uses
+
+WebSockets are great for live chat apps, real-time games, or any live data feed where you want constant updates.
+
+//How WebSockets Operate
+
+WebSockets handle things differently. Once the connection is established, it remains open, allowing the server to push updates to you whenever there’s something new. It’s more like leaving the door open so updates can come in immediately without the constant back-and-forth. This approach is faster and uses fewer resources.
+
+//Vulnerabilities
+
+-Weak Authentication and Authorisation
+-Message Tampering : if there is no encryption
+-Cross-Site WebSocket Hijacking 
+-Denial of Service
+
+//WebSocket Message Manipulation
+
+When an attacker intercepts and changes the messages sent between a web app and its server
+
+This kind of manipulation can also lead to more significant problems. Hackers could inject harmful code or try to get higher-level access. For instance, they might change a message to give themselves admin rights or insert malicious commands to take control of the server.
+
+//In-Depth
+
+The impact of changing WebSocket messages depends on how the app uses them and what kind of data is being sent. Here's a breakdown of what can happen:
+-Doing Things Without Permission
+-Gaining Extra Privileges
+-Messing Up Data
+-Crashing the System
+
+//Exploitation 
+
+Use burp suite to intercept the request , then change value of the target id as an example , finally turn off interception , and ur request should be sent.
