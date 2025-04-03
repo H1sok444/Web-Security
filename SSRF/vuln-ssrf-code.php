@@ -1,4 +1,5 @@
-//Vulnerable Script
+// Your script should be like this 
+<?php
 $uri = rtrim($_GET['url'], "/");
 ...					
 $path = ROOTPATH . $file;
