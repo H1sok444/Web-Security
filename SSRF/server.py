@@ -1,5 +1,5 @@
 # Can be used in Blind SSRF Testing
-from http.server import SimpleHTTPRequestHandler, TTPServer
+from http.server import SimpleHTTPRequestHandler, HTTPServer
 from urllib.parse import unquote
 class CustomRequestHandler(SimpleHTTPRequestHandler):
 
