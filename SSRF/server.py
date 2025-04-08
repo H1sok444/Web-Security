@@ -1,4 +1,4 @@
-# Can be used in Blind SSRF Testing 
+# Can be used in Blind SSRF Testing
 from http.server import SimpleHTTPRequestHandler, HTTPServer
 from urllib.parse import unquote
 class CustomRequestHandler(SimpleHTTPRequestHandler):
