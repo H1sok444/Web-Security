@@ -1,5 +1,6 @@
 #!/bin/bash
 # This is a script that is made to automate mysql injections
+# To be modified later
 
 echo "Enter the host info (ip/domain)" 
 read host
